@@ -1,3 +1,9 @@
+#Você foi contratado por uma pequena empresa que fabrica produtos sensíveis à temperatura. 
+#A empresa deseja implementar um sistema de monitoramento de temperatura para garantir que seus produtos sejam armazenados em condições adequadas. 
+#Se a temperatura exceder um determinado limite, um alarme deve ser acionado para alertar os funcionários e evitar possíveis danos aos produtos.
+#Você deve projetar um sistema de monitoramento de temperatura usando um sensor de temperatura e um microcontrolador Arduino. 
+#O sistema deve medir a temperatura ambiente e acionar um alarme quando a temperatura exceder 25°C. O alarme pode ser um buzzer ou um LED que deve ser ligado quando a temperatura ultrapassar o limite especificado
+
 import pyfirmata
 import time
 import math
